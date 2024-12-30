@@ -1,0 +1,12 @@
+[versions]
+kotlin = "2.0.20"
+junit = "5.11.4"
+mockito = "5.4.0"
+
+[libraries]
+junit = { module = "org.junit.jupiter:junit-jupiter", version.ref = "junit" }
+mockito = { module = "org.mockito.kotlin:mockito-kotlin", version.ref = "mockito" }
+
+[plugins]
+kotlin = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }
+publish = {id="maven-publish"}
